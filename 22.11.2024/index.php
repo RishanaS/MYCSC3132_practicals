@@ -8,8 +8,8 @@
 <body>
     <h1>2020/ASP/02</h1><br><br>
 
-    <a href="table.php">Table</a><br>
-
+    <a href="tables.php">PrintTable</a><br>
+    <a href="tablecol.php">printColumn</a><br>
     
 </body>
 </html>
