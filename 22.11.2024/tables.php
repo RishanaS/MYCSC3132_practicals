@@ -42,5 +42,5 @@ function PrintTable($tableName,$connect){
 	}
 }
 PrintTable("student",$connect);
-PrintTable("boat",$connect);
+//PrintTable("boat",$connect);
 ?>
