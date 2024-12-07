@@ -14,7 +14,7 @@ require_once 'myfunc.php';
 
 
  
- $id = $_GET['id'];
+ $id =$_GET['id'];
 
 Studentdetails($id,$connect);
 
