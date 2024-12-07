@@ -10,7 +10,7 @@
 
     <a href="getdata.php">Gettable</a><br>
     
-    <a href="print.php">MyFunction</a><br>
+    <a href="print.php">Print</a><br>
 
 
     
