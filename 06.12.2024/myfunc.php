@@ -32,7 +32,7 @@ require_once 'dbconf.php';
                     }
                     $id=$row['id'];
                     //query string
-                    echo "<td><a href='printtable.php? EMP_ID=$id '> View </a> </td>";
+                    echo "<td><a href='print.php? EMP_ID=$id '> View </a> </td>";
                     echo "</tr>";
                     
                     }
