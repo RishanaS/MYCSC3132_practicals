@@ -38,7 +38,7 @@ if (isset($_GET['name']) && $_GET['name'] != '') {
 	SearchData($_GET['name'],$connect);
 }
 
-SearchData('Bob Smith ',$connect);
+//SearchData('Bob Smith ',$connect);
 ?>
 </body>
 </html>
