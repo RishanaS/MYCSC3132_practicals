@@ -1,10 +1,10 @@
 <?php
-$dbHost = getenv('DB_HOST');
-$dbName = getenv('DB_NAME');
-$dbUser = getenv('DB_USER');
-$dbPass = getenv('DB_PASS');
+define('SERVERNAME', '127.0.0.1:3306');
+define('USERNAME', 'root');
+define('PASSWORD', 'mariadb');
+define('DBNAME', 'school');
 try{
-    $connect = mysqli_connect($dbHost,$dbName,$dbUser,$dbPass);
+    $connect = mysqli_connect(SERVERNAME,USERNAME,PASSWORD,DBNAME);
     if(!$connect){
         die("Connection failed".mysqli_connect_error());
     }
