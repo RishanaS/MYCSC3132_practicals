@@ -2,7 +2,7 @@
 //get the database connection file
 require_once 'dbconf.php';
  //GET DATA FROM DB
- function student($connect){
+ function GetData($connect){
             try{
             
                 $sql = "SELECT id,name FROM  student";

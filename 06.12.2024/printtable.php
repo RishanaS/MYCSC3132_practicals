@@ -12,7 +12,7 @@
 require_once 'dbconf.php'; //(conf/dbconf.php) (folder/file)
 require_once 'myfunc.php';
 
-//student($connect);
+
  
  $id = $_GET['id'];
 
