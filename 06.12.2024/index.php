@@ -8,7 +8,7 @@
 <body>
     <h1>2020/ASP/02</h1><br><br>
 
-    <a href="gettable.php">Gettable</a><br>
+    <a href="getdata.php">Gettable</a><br>
     
     <a href="myfunc.php">MyFunction</a><br>
 
